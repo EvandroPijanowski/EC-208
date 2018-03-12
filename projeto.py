@@ -22,6 +22,8 @@ def operacao():
 
         resultado = operador1 + operador2
         resultado_binario = int(resultado, base=10)
+        
+        posicao = converte_tres_digitos(vetor, 8, 9, 10, 2)
 
 
 
